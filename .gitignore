@@ -1,0 +1,55 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# VS Code specific
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Streamlit cache folder (if you use any)
+.streamlit/
+
+# Data files you do NOT want to push to GitHub
+# Typically large image folders or processed data
+data/e-commerce/
+data/images_resized/
+data/embeddings/
+
+# Backups folder
+backups/
+
+# Secrets or config files you want to keep private
+secrets/
+
+#  Documentation & HF Utils
+documentation/
+hfutils/
+
+# Python egg metadata
+*.egg-info/
+
+# Build or distribution directories
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
