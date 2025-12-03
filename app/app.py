@@ -154,6 +154,10 @@ def search_by_image(img: Image.Image, k=12):
 st.set_page_config(page_title="Multimodal Product Search", layout="wide")
 st.title("🛍️ Multimodal Product Search Engine")
 st.markdown(
+    '<p style="font-size:11px; color:gray; text-align:left;">Based on OpenAI CLIP Pre-trained Model</p>',
+    unsafe_allow_html=True
+)
+st.markdown(
     '<p style="font-size:10px; color:gray; text-align:left;">© 2025 John Merwin. All rights reserved.</p>',
     unsafe_allow_html=True
 )
